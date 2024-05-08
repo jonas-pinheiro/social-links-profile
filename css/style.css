@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+main.container {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+main ul li:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+main .description-profile {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+main ul li {
+    color: hsl(0, 0%, 100%);
+    list-style: none;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+main h2 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+main .img img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+main .information-profile h1 {
+    margin-bottom: 10px;
+}
